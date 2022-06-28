@@ -7,7 +7,7 @@ public class App {
         Scanner s = new Scanner(System.in);
 
         System.out.println("Insira o texto aqui:\n");
-        String a = s.next();
+        String a = s.nextLine();
         char b[] = a.toCharArray();
 
         System.out.println("Quantas vezes quer que escreva?");
@@ -17,7 +17,7 @@ public class App {
 
         String str = "";
 
-        for(int i = 0; i<c ;i++){
+        for(int i = 0; i < c ; i++){
 
             if(c > 0){
 
